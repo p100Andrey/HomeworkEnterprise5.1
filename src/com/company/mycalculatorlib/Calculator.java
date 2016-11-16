@@ -5,7 +5,7 @@ public class Calculator implements Addable, Subtractable {
     @Override
     public String calculate(String str) {
         char operator = str.charAt(0);
-        if (operator != '+' && operator != '-'){
+        if (operator != '+' && operator != '-' && operator != '*' && operator != '/'){
             System.out.println("Формат ввода данных неверный!");
             return null;
         }

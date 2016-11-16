@@ -1,6 +1,6 @@
 package com.company.mycalculatorlib;
 
 public interface Multiplyble extends MyCalculatorLib {
-    String multiply(String str);
+    double multiply(double number1, double number2);
 }
 

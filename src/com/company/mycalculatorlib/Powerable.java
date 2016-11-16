@@ -1,6 +1,6 @@
 package com.company.mycalculatorlib;
 
 public interface Powerable extends MyCalculatorLib {
-    String power(String str);
+    double power(double number1, double number2);
 }
 
