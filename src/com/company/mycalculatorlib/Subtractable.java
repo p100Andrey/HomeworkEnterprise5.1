@@ -1,7 +1,5 @@
 package com.company.mycalculatorlib;
 
-import com.company.mycalculatorlib.MyCalculatorLib;
-
-public interface Subtractable extends MyCalculatorLib {
+public interface Subtractable {
     double subtract(double x, double y);
 }

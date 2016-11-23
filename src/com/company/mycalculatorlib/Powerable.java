@@ -1,6 +1,6 @@
 package com.company.mycalculatorlib;
 
-public interface Powerable extends MyCalculatorLib {
+public interface Powerable {
     double power(double number1, double number2);
 }
 
